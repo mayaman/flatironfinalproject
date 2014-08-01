@@ -11,14 +11,24 @@
       <h3>“The limits of my language means the limits of my world.”</h3>
     </center>
   </div>
-  
+  <br>
+  <br>
   <div class = text>
-      <p> <center> today's word is: </center> </p>
+      <center> <iframe src="http://free.timeanddate.com/clock/i49jtfky/n179/fn15/fs20/fcfff/tct/pct/ftb/pa3/tt1/tw0" frameborder="0" width="174" height="29" allowTransparency="true"></iframe> </center>
+    <div class = intro>
+        <p> today's word is: </p>
+      </div>
     <div class = word> 
-      <p> <center> <%= @today_word.word %> </center> </p> 
+      <p> 
+        <center> <%= @today_word.word %> </center> 
+      </p> 
     </div>
+    <div class = info>
       <p> <center> <%= @today_word.info %> </center> </p>
+    </div>
+    <div class = definition>
       <p> <center> <%= @today_word.definition %> </center> </p>
     </div>
+  </div>
 
 </body>
