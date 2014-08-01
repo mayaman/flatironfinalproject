@@ -31,9 +31,9 @@ class Newmessage
       :from => '+18152642023',
       :to => '+17179038853',
       :body =>"#{@my_word.word}" + "
-  
-  #{@my_word.info}" + "
-  #{@my_word.definition}"
+#{@my_word.info}" + "
+
+#{@my_word.definition}"
       )
   end
 
