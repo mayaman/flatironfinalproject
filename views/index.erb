@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title> WORD OF THE DAY </title>
+</head>
+<body>
+  <div class = header>
+    <center>
+      <h1>WORD OF THE DAY</h1>
+      <br>
+      <h3>“The limits of my language means the limits of my world.”</h3>
+    </center>
+  </div>
+  
+  <div class = text>
+      <p> <center> today's word is: </center> </p>
+    <div class = word> 
+      <p> <center> <%= @today_word.word %> </center> </p> 
+    </div>
+      <p> <center> <%= @today_word.info %> </center> </p>
+      <p> <center> <%= @today_word.definition %> </center> </p>
+    </div>
+
+</body>

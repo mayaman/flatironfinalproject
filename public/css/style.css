@@ -1,0 +1,30 @@
+body {
+    background-color: #000066;
+}
+
+body {
+  font-family: verdana;
+  text-align: right;
+  color: white;
+}
+
+.header {
+background-image: url(http://thumbs.dreamstime.com/x/word-clippings-magazine-background-5267163.jpg);
+color: white;
+padding: 10px;
+}
+
+h1 {
+  background-color: #000066;
+  display: inline-block;
+  padding: 5px;
+}
+h3 {
+  background-color: #000066;
+  display: inline-block;
+  padding: 5px;
+}
+.word {
+  font-size: 50px;
+}
+
