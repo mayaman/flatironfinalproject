@@ -26,7 +26,7 @@ class Newmessage
 
     # set up a client to talk to the Twilio REST API
     @client = Twilio::REST::Client.new account_sid, auth_token
-    ['+17179038853', '+17175808790', '+17178296927'].each do |num|
+    ['+17179038853', '+17175808790', '+17178296927', '+17173291207'].each do |num|
       @client.account.messages.create(
         :from => '+18152642023',
         :to => num,
